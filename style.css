@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.navpanel {
+    background-color: #212529;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px
+}
+
+.navpanel h2 {
+    font-size: 30px;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.mainBody {
+    text-align: center;
+    margin-top: 30px;
+    font-size:larger;
+}
+
+.subject1 {
+    margin-top: 30px;
+    text-indent: 50px;
+    border: 20px solid #212529;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.missionStatement {
+    margin-top: 50px;
+    margin-left: 40px;
+   
+}
+
+.bigger {
+    
+    font-size: 200%;
+}
+
+.quote {
+    margin-top: 50px;
+    margin-left: 40px;
+   
+}
+
+
+.subject2 {
+    margin-top: 30px;
+    text-indent: 50px;
+    border: 20px solid hsl(210, 72%, 30%);
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.bodypic {
+    height: 200px;
+    margin-top: 50px;
+}
+
+.hobbiespic {
+    height: 200px;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+.hobbiespic2 {
+    height: 200px;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px
+ 
+}
