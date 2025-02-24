@@ -6,12 +6,13 @@
 }
 
 
+
 .navpanel {
     background-color: #212529;
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 30px 20px
+    padding: 30px 20px;
 }
 
 .navpanel h2 {
@@ -22,13 +23,15 @@
     color: white;
     text-decoration: none;
     font-size: 25px;
+    margin-left: 20px;
 }
 
-.mainBody {
-    text-align: center;
-    margin-top: 30px;
-    font-size:larger;
+.navlinks a:hover {
+    background: gray;
+    border-radius: 5px;
 }
+
+
 
 .subject1 {
     margin-top: 30px;
@@ -88,4 +91,54 @@
     margin-right: auto;
     width: 300px
  
+}
+
+.contact {
+    padding: 2px;
+}
+  
+textarea {
+    width: 50%;
+}
+
+.success-page {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: x-large
+}
+
+@media (max-width:320px){
+    .navpanel {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .navpanel h2 {
+        font-size: 15px;
+    }
+    
+
+    .navlinks a {
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        margin-left: 20px;
+        
+    }
+
+    .navlinks {
+        display: flex;
+        flex-direction: column;
+    }
+
+        article {
+            width: 50%;
+        }
+    form {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
 }
